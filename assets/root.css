@@ -1,6 +1,6 @@
 :root {
     --fs-24: 22px;
-    --fs-sm: 15px;
+    --fs-sm: 14px;
     --fs-md: 20px;
     --fs-lg: 17px;
     --fs-xl: 25px;
@@ -109,7 +109,8 @@
 .lh-160 {
     line-height: 160%;
 }
-.lh-125{
+
+.lh-125 {
     line-height: 125%;
 }
 

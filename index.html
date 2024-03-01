@@ -364,7 +364,7 @@
     <section>
         <div class="pt_41">
             <h2 class=" mb-0 font_libre fw-400 text-36 lh-42 color-black text-center">Gallery</h2>
-            <div class="gallery-slider mt_25">
+            <div class="gallery-slider g-slider mt_25">
                 <div class="slider-img-width"><img class=" w-100 slider-img border_16 "
                         src="./assets/images/gallery-1.png" alt="gallery">
                 </div>
@@ -379,7 +379,7 @@
                         alt="gallery">
                 </div>
             </div>
-            <div class=" gallery-slider-two mt-3 ">
+            <div class="gallery-slider-two g-slider mt-3 ">
                 <div class="slider-width"><img class=" w-100 border_16 slider-img" src="./assets/images/gallery-5.png"
                         alt="gallery">
                 </div>
@@ -561,7 +561,8 @@
     <section class=" position-relative contact_bg_img mt_33 mb_39">
         <div class="container_2 ">
             <div class="row  ">
-                <div class="col-lg-6 pt_33 pb_39 d-flex justify-content-center justify-content-md-start">
+                <div
+                    class="col-lg-6 col-md-6  col-12 pt_33 pb_39 d-flex justify-content-center justify-content-md-start">
                     <div class="">
                         <h4 class=" mb-0 font_libre fw-400 text-36 lh-49  color-black">Contact Us</h4>
                         <div class=" d-flex align-items-center gap-3 mt_20">
@@ -604,8 +605,8 @@
                     </div>
                 </div>
                 <!-- another--col-6 -->
-                <div class="col-lg-6 d-flex justify-content-center">
-                    <div class="form_box form_box_pos position-absolute border_16">
+                <div class="col-lg-6 pb-5 pb-md-0 col-md-6 col-12 d-flex justify-content-center">
+                    <div class="form_box form_box_pos  border_16">
                         <h2 class=" mb-0 font_libre fw-400 text-24 lh-38"><span class=" d-block">Contact us! someone
                                 from</span> <span class=" fw-500 color-green font_italic">Evergreen</span> will reach
                             out to
@@ -688,7 +689,7 @@
             </div>
             <div class="footer_line mt_54"></div>
             <div>
-                <p class="text-center py_34 mb-0 font_poppins fw-400 fs-sm lh-160 olor-light-grey">Copyright © 2023
+                <p class="text-center py_34 mb-0 font_poppins fw-400 fs-sm lh-160 olor-light-grey">Copyright © <script type="text/javascript">document.write(new Date().getFullYear());</script>
                     Evergreen Landscapes LLC.
                     All rights
                     reserved.</p>
@@ -710,7 +711,7 @@
         $('.responsive').slick({
             dots: false,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             arrows: false,
             arrow: false,
             prevArrow: ".slick_circle_back",
@@ -754,6 +755,7 @@
         $('.hero-slider').slick({
             dots: false,
             infinite: true,
+            fade:true,
             speed: 300,
             slidesToShow: 1,
             slidesToScroll: 1,

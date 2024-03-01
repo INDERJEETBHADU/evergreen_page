@@ -174,7 +174,7 @@ ul {
 
 .pt_33 {
     padding-top: 33px;
-    padding-bottom: 750px;
+    padding-bottom: 20px;
 }
 
 .mb_39 {
@@ -292,7 +292,7 @@ ul {
     min-width: 261px !important;
 }
 
-.slick-track {
+.g-slider>.slick-list>.slick-track {
     display: flex !important;
     gap: 15px !important;
 }
@@ -371,6 +371,7 @@ input:focus>.name_input {
 
 .form_box_pos {
     top: 38%;
+    position: unset !important;
 }
 
 .bf-footer {
@@ -513,6 +514,7 @@ input:focus>.name_input {
 
     .form_box_pos {
         top: 40%;
+        position: unset !important;
     }
 
     .coustmer_box {
@@ -552,7 +554,7 @@ input:focus>.name_input {
 
     .pt_33 {
         padding-top: 66px;
-        padding-bottom: 730px;
+        padding-bottom: 73px;
     }
 
 }
@@ -564,6 +566,7 @@ input:focus>.name_input {
     }
 
     .form_box_pos {
+        position: absolute !important;
         top: -18%;
     }
 
